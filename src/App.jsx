@@ -7,6 +7,10 @@ import Pantalla from './components/Pantalla.jsx';
 
 import { calcular } from './utilities/cacular.js';
 
+import './styles/App.css';
+
+
+
 function App() {
   // const [resultado, setResultado] = useState("");
   // const [operacion, setOperacion] = useState("");
@@ -49,13 +53,13 @@ function App() {
 
 
   return (
-    <div>
+    <section className='Container'>
       <h1>Calculadora simple de dos numeros</h1>
-      <div >
-        {/* <Pantalla resultado={resultado} operacion={operacion} numero1={numero1} numero2={numero2} onClick={onClick} rest={rest} />
-        <Teclado onClick={onClick} /> */}
-      </div>
-    </div>
+      <article >
+        <Pantalla  />
+        <Teclado />
+      </article>
+    </section>
   );
 }
 

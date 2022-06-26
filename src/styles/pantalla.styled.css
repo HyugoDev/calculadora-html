@@ -1,0 +1,21 @@
+
+
+
+.Diplay-Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Diplay {
+    height: 60px;
+    background-color: #fff;
+    border-radius : 5px;
+    display: flex;
+
+    justify-content: end;
+    align-items: center;
+
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
